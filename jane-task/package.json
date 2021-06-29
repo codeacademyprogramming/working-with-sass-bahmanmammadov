@@ -1,0 +1,14 @@
+{
+  "name": "jane-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile":"node-sass assets/scss/style.scss assets/style.css",
+    "watch":"node-sass assets/scss/style.scss assets/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
