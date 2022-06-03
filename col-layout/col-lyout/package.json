@@ -1,0 +1,21 @@
+{
+  "name": "praktika",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile":"node-sass ./asests/scss/main.scss  ./asests/css/style.css",
+    "compile1":"node-sass ./asests/scss/main.scss  ./asests/css/style.css -w"
+
+
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

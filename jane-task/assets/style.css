@@ -1,0 +1,329 @@
+body {
+  background-color: white; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+header nav .col-12 {
+  width: 100%;
+  height: 40px;
+  background-color: black; }
+  header nav .col-12 i {
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    margin-left: 5px; }
+
+header .h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 35px; }
+
+header .h4 {
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Times New Roman', Times, serif; }
+  header .h4 span {
+    background-color: black;
+    color: white;
+    padding: 5px; }
+
+header .image-part img {
+  height: 966px;
+  width: 100%; }
+
+header .image-part .input {
+  width: 120px;
+  height: 45px;
+  background-color: red; }
+  header .image-part .inputhover {
+    background-color: green; }
+
+main .main-div {
+  display: flex;
+  height: 3000px;
+  background-color: #f1f1f1; }
+  main .main-div .col-5 {
+    margin-left: 20px;
+    margin-top: 10px; }
+    main .main-div .col-5 .right-side-1 {
+      width: 98%;
+      background-color: black; }
+      main .main-div .col-5 .right-side-1 h2, main .main-div .col-5 .right-side-1 p {
+        color: white;
+        padding: 8px; }
+      main .main-div .col-5 .right-side-1 .avatar2 {
+        display: inline-block;
+        width: 100%;
+        height: 350px; }
+    main .main-div .col-5 .right-side-2 {
+      background-color: white; }
+      main .main-div .col-5 .right-side-2 h2 {
+        background-color: black;
+        color: white;
+        width: 98%;
+        padding: 13px; }
+      main .main-div .col-5 .right-side-2 div:hover {
+        background-color: #a19b9b; }
+      main .main-div .col-5 .right-side-2 img {
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+        display: inline-block;
+        margin-left: 10px; }
+      main .main-div .col-5 .right-side-2 p {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5%;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+      main .main-div .col-5 .right-side-2 hr {
+        background-color: #dddddd;
+        width: 97%;
+        margin: 0 auto; }
+    main .main-div .col-5 .right-side-3 {
+      background-color: white; }
+      main .main-div .col-5 .right-side-3 h2 {
+        background-color: black;
+        color: white;
+        width: 98%;
+        padding: 13px; }
+      main .main-div .col-5 .right-side-3 .yourad {
+        width: 96%;
+        height: 250px;
+        background-color: #dadada;
+        margin: 10px; }
+        main .main-div .col-5 .right-side-3 .yourad p {
+          padding-top: 120px;
+          padding-left: 220px; }
+    main .main-div .col-5 .right-side-4 {
+      background-color: white; }
+      main .main-div .col-5 .right-side-4 h2 {
+        background-color: black;
+        color: white;
+        width: 98%;
+        padding: 13px; }
+      main .main-div .col-5 .right-side-4 img {
+        width: 250px;
+        height: 250px;
+        margin-left: 24px;
+        margin-top: 8px; }
+    main .main-div .col-5 .right-side-5 {
+      background-color: white; }
+      main .main-div .col-5 .right-side-5 h2 {
+        background-color: black;
+        color: white;
+        width: 98%;
+        padding: 13px; }
+      main .main-div .col-5 .right-side-5 input {
+        width: 80%;
+        border-radius: 2px;
+        height: 25px;
+        padding: 13px;
+        margin-left: 15px; }
+      main .main-div .col-5 .right-side-5 button {
+        width: 80%;
+        height: 30px;
+        margin-left: 15px;
+        background-color: #d83636; }
+        main .main-div .col-5 .right-side-5 button:hover {
+          background-color: #706262; }
+  main .main-div .col-7 {
+    margin-left: 20px;
+    height: 2500px; }
+    main .main-div .col-7 .left-side-1 {
+      background-color: white; }
+      main .main-div .col-7 .left-side-1 h2, main .main-div .col-7 .left-side-1 h4 {
+        text-align: center;
+        margin-top: 10px; }
+      main .main-div .col-7 .left-side-1 img {
+        width: 100%;
+        padding: 15px; }
+      main .main-div .col-7 .left-side-1 p {
+        text-align: justify;
+        padding: 15px; }
+      main .main-div .col-7 .left-side-1 .a1 {
+        display: inline-block;
+        text-decoration: none;
+        border: 1px solid black;
+        background-color: white;
+        margin: 15px;
+        width: 55px;
+        height: 35px;
+        padding: 6px;
+        color: black; }
+        main .main-div .col-7 .left-side-1 .a1:hover {
+          background-color: #867f7f; }
+      main .main-div .col-7 .left-side-1 .a2 {
+        text-decoration: none;
+        border: 1px solid black;
+        width: 95px;
+        height: 35px;
+        float: right;
+        margin: 15px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        display: inline-block; }
+        main .main-div .col-7 .left-side-1 .a2:hover {
+          background-color: #afa4a4; }
+        main .main-div .col-7 .left-side-1 .a2 span {
+          display: inline-block;
+          border: 1px solid black;
+          padding: 3px;
+          color: black;
+          background-color: white;
+          width: 25px;
+          margin-top: 5px;
+          text-align: center; }
+      main .main-div .col-7 .left-side-1 .avatar {
+        display: inline-block;
+        width: 120px;
+        height: 120px; }
+      main .main-div .col-7 .left-side-1 .foto {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px; }
+      main .main-div .col-7 .left-side-1 .txt {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: -100px;
+        margin-top: 10px; }
+    main .main-div .col-7 .left-side-2 {
+      background-color: white;
+      margin-top: 35px; }
+      main .main-div .col-7 .left-side-2 h2, main .main-div .col-7 .left-side-2 h4 {
+        text-align: center;
+        margin-top: 10px; }
+      main .main-div .col-7 .left-side-2 img {
+        width: 100%;
+        padding: 15px; }
+      main .main-div .col-7 .left-side-2 p {
+        text-align: justify;
+        padding: 15px; }
+      main .main-div .col-7 .left-side-2 .a1 {
+        display: inline-block;
+        text-decoration: none;
+        border: 1px solid black;
+        background-color: white;
+        margin: 15px;
+        width: 55px;
+        height: 35px;
+        padding: 6px;
+        color: black; }
+        main .main-div .col-7 .left-side-2 .a1:hover {
+          background-color: #867f7f; }
+      main .main-div .col-7 .left-side-2 .a2 {
+        text-decoration: none;
+        border: 1px solid black;
+        width: 95px;
+        height: 35px;
+        float: right;
+        margin: 15px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        display: inline-block; }
+        main .main-div .col-7 .left-side-2 .a2:hover {
+          background-color: #afa4a4; }
+        main .main-div .col-7 .left-side-2 .a2 span {
+          display: inline-block;
+          border: 1px solid black;
+          padding: 3px;
+          color: black;
+          background-color: white;
+          width: 25px;
+          margin-top: 5px;
+          text-align: center; }
+    main .main-div .col-7 .left-side-3 {
+      background-color: white;
+      margin-top: 15px; }
+      main .main-div .col-7 .left-side-3 h2, main .main-div .col-7 .left-side-3 h4 {
+        text-align: center;
+        margin-top: 10px; }
+      main .main-div .col-7 .left-side-3 img {
+        width: 100%;
+        padding: 15px; }
+      main .main-div .col-7 .left-side-3 p {
+        text-align: justify;
+        padding: 15px; }
+      main .main-div .col-7 .left-side-3 .a1 {
+        display: inline-block;
+        text-decoration: none;
+        border: 1px solid black;
+        background-color: white;
+        margin: 15px;
+        width: 55px;
+        height: 35px;
+        padding: 6px;
+        color: black; }
+        main .main-div .col-7 .left-side-3 .a1:hover {
+          background-color: #867f7f; }
+      main .main-div .col-7 .left-side-3 .a2 {
+        text-decoration: none;
+        border: 1px solid black;
+        width: 95px;
+        height: 35px;
+        float: right;
+        margin: 15px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        display: inline-block; }
+        main .main-div .col-7 .left-side-3 .a2:hover {
+          background-color: #afa4a4; }
+        main .main-div .col-7 .left-side-3 .a2 span {
+          display: inline-block;
+          border: 1px solid black;
+          padding: 3px;
+          color: black;
+          background-color: white;
+          width: 25px;
+          margin-top: 5px;
+          text-align: center; }
+
+.col-1 {
+  width: calc(100% / 12); }
+
+.col-2 {
+  width: calc(100% / 12 * 2); }
+
+.col-3 {
+  width: calc(100% / 12 * 3); }
+
+.col-4 {
+  width: calc(100% / 12 * 4); }
+
+.col-5 {
+  width: calc(100% / 12 * 5); }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: calc(100% / 12 * 7); }
+
+.col-8 {
+  width: calc(100% / 12 * 8); }
+
+.col-9 {
+  width: calc(100% / 12 * 9); }
+
+.col-10 {
+  width: calc(100% / 12 * 10); }
+
+.col-11 {
+  width: calc(100% / 12 * 11); }
+
+.col-12 {
+  width: 100%; }
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .col-12 {
+    display: none; }
+  .col-5 {
+    display: none; }
+  .col-7 {
+    width: 100%; } }

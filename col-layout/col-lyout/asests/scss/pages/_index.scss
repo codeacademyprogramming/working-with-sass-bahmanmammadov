@@ -1,0 +1,35 @@
+.col-1{
+    @include responsiz (computer){
+        background-color: $background-color;
+        border: 2px solid $background-color-1;
+    }
+}
+
+.col-notbook-6{
+    @include responsiz (notbook){
+        
+        width: calc(100% / 12 * 2);
+        border: 3px solid $background-red;
+        background-color: $background-blue;
+    }
+}
+
+.col-tablet-3{
+    @include responsiz (tablet){
+        
+        width: calc(100% / 12 * 4);
+        border: 3px solid $background-orange;
+        background-color: $background-pink;
+        height: 100px;
+    }
+}
+.col-phone-1{
+    @include responsiz (phone){
+        
+        width:100%;
+        border: 3px solid rgb(30, 226, 112);
+        background-color: rgb(7, 252, 252);
+        height: 100px;
+    }
+
+}
